@@ -1,0 +1,63 @@
+git config --list      (to check which git account. After that to stop press q)
+
+git config --global user.name "VIRUS-TECH-SOLUTIONS"
+git config --global user.email "virus.tech.dash@gmail.com"
+
+(used to set your Git identity globally)
+
+important commands:
+1. git init
+2. git status   (To check the tracked and untracked files)
+3. git add . (To add the files to staged area)
+4. git push origin main
+5. git checkout -b branchname    (to create the branch)
+6. git checkout branchname(switch to that branch)
+7. git branch -d branch_name (delete safely)
+8. git branch -D branch_name  (delete forcefully)
+
+
+
+
+cloning the repo:
+
+# 1. Go to your project folder
+cd path/to/your/project
+
+# 2. Check the repo status (optional, see which files changed)
+git status
+
+# 3. Stage all changes
+git add .
+
+# 4. Commit with a message
+git commit -m "Updated project files"
+
+# 5. Push to GitHub
+git push origin main
+
+.
+
+If you have already have a code in your local
+
+# Initialize git if not already
+git init  
+
+# Add all files (Git will skip node_modules because of .gitignore)
+git add .  
+
+# Commit your code
+git commit -m "Initial commit"  
+
+# Rename branch to main
+git branch -M main  
+
+# Add your GitHub repo link (replace with your repo URL)
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO.git  
+
+# Push code to GitHub
+git push -u origin main  
+
+
+
+
+
