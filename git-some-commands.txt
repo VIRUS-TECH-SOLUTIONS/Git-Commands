@@ -6,10 +6,10 @@ git config --global user.email "virus.tech.dash@gmail.com"
 (used to set your Git identity globally)
 
 important commands:
-1. git init
+1. git init   (Initialize a git repository )
 2. git status   (To check the tracked and untracked files)
 3. git add . (To add the files to staged area)
-4. git push origin main
+4. git push origin main (push the code to main)
 5. git checkout -b branchname    (to create the branch)
 6. git checkout branchname(switch to that branch)
 7. git branch -d branch_name (delete safely)
